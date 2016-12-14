@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#g").click(function(){
+        $("#a").fade();
+        $("#p").fade();
+        $("#c").fade();
+    });
+//    $("#show").click(function(){
+//        $("p").show();
+//    });
+});
