@@ -1,8 +1,12 @@
 <!DOCTYPE HTML>
+
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-		<link media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="css/retina.css" type="text/css" rel="stylesheet">		
+		<!--	<link media="only screen and (-webkit-min-device-pixel-ratio: 2)" href="css/retina.css" type="text/css" rel="stylesheet"> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>		
+		<script type="text/javascript" src="script.js"></script>
+
 		
 		<title>Bryn Murrell</title>
 	</head>
@@ -14,10 +18,12 @@
 			</div>	
 			<div class=navBlock>
 				<ul>
-					<li>work</li>
-					<li>about</li>
+					<li id=g>graphic design</li>
+					<li id=a> architecture</li>
+					<li id=p>photography</li>
+					<liid=c>contact</li>
 				</ul>
-			</div>
+			</div>	
 		</div>
 	</body>
 </html>
